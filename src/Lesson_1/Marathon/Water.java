@@ -9,7 +9,7 @@ public class Water extends Obstacle {
     }
 
     @Override
-    public void doIt(Competitor competitor) {
+    public void doIt(Competitor competitor) {//препятствие вода, определённой длины;
         competitor.swim(length);
     }
 }

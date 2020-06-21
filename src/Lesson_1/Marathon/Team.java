@@ -8,7 +8,7 @@ public class Team {
         this.competitors = competitors;
     }
 
-    public void startMarathon(Course course){ //начало марафона, участники проходят препятствия;
+    public void startMarathon(Course course){ //начало марафона, участники проходят препятствия
         for (Competitor competitor : competitors) {
             course.passAll(competitor);
         }

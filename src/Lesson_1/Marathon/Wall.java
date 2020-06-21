@@ -6,7 +6,7 @@ public class Wall extends Obstacle {
 
     public Wall(int height) {
         this.height = height;
-    }
+    }//препятствие стена, определённой высоты;
 
     @Override
     public void doIt(Competitor competitor) {

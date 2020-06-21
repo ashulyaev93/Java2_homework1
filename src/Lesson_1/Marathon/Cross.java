@@ -6,7 +6,7 @@ public class Cross extends Obstacle {
 
     public Cross(int length) {
         this.length = length;
-    }
+    }//расстояние, которое нужно пробежать;
 
     @Override
     public void doIt(Competitor competitor) {

@@ -8,7 +8,7 @@ public class Course {
         this.course = course;
     }
 
-    public void passAll(Competitor competitor){//участники по очереди проходят все препятствия;
+    public void passAll(Competitor competitor){//участники по очереди проходят все препятствия
         for (Obstacle o : course) {
             o.doIt(competitor);
             if (!competitor.isOnDistance()) break;
