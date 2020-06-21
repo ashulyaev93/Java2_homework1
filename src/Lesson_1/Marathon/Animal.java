@@ -1,6 +1,6 @@
 package Lesson_1.Marathon;
 
-public class Animal implements Competitor {
+public class Animal implements Competitor {//класс участников животные;
     String type;
     String name;
 
